@@ -1,14 +1,14 @@
 # Site Settings
-title: Jekflix | A theme for Jekyll
-email: youremail@xyz.com
-description: Some text about your blog.
-baseurl: "/jekflix-template" # the subpath of your site, e.g. /blog
+title: Sical demonstrators
+email:
+description: Platform for demos of th SICAL team
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://www.rossener.com" # the base hostname & protocol for your site
 google_analytics: "UA-XXXXXXXX-X"
 
 # User Settings
-username: Jekflix
-user_description: Some text about you.
+username: Sical demonstrators
+user_description: No description available.
 disqus_username: disqus_username
 
 # Social Media
@@ -19,6 +19,11 @@ twitter_username: twitter_username
 instagram_username: instagram_username
 linkedin_username: linkedin_username
 medium_username: medium_username
+
+collections:
+  demonstrations:
+      output: true
+      permalink: /:collection/:name/
 
 # Build settings
 markdown: kramdown
@@ -40,4 +45,5 @@ links:
     url: /contact/
 
 # Exclude my node related stuff
+include: ["_demonstrations"]
 exclude: ['package.json', 'src', 'node_modules']
