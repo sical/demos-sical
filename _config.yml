@@ -23,7 +23,7 @@ user_description: Platform for demos of th SICAL team.
 collections:
   demonstrations:
       output: true
-      permalink: /:collection/:name/
+      permalink: /demos-sical/:collection/:name/
 
 # Build settings
 markdown: kramdown
