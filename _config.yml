@@ -9,16 +9,16 @@ google_analytics: "UA-XXXXXXXX-X"
 # User Settings
 username: Sical demonstrators
 user_description: No description available.
-disqus_username: disqus_username
+#disqus_username: disqus_username
 
 # Social Media
 # Remove the item if you don't need it
-github_username: github_username
-facebook_username: facebook_username
-twitter_username: twitter_username
-instagram_username: instagram_username
-linkedin_username: linkedin_username
-medium_username: medium_username
+#github_username: github_username
+#facebook_username: facebook_username
+#twitter_username: twitter_username
+#instagram_username: instagram_username
+#linkedin_username: linkedin_username
+#medium_username: medium_username
 
 collections:
   demonstrations:
