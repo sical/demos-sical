@@ -2,8 +2,8 @@
 title: Sical demonstrators
 email:
 description: Platform for demos of th SICAL team
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://sical.github.io/demos-sical" # the base hostname & protocol for your site
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://sical.github.io/demos-sical/" # the base hostname & protocol for your site
 google_analytics: "UA-XXXXXXXX-X"
 
 # User Settings
@@ -39,10 +39,6 @@ gems:
 links:
   - title: Home
     url: /
-  - title: About
-    url: /about/
-  - title: Contact
-    url: /contact/
 
 # Exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
