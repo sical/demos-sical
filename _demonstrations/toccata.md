@@ -15,7 +15,16 @@ twitter_text: Toccata is a tool for pedagogical activities creation and manageme
 introduction: Toccata is a tool for pedagogical activities creation and management.
 ---
 
+# ![Toccata logo](assets/img/demos/toccata/toccata_logo.png) 
+This project is a research project financed buy the REPI project http://www.repi-recherche.com/
 
+## Videos
+### Presentation of Toccata (french)
+[![Presentation video of Toccata (French)](https://img.youtube.com/vi/RdKIndS-Znc/0.jpg)](https://www.youtube.com/watch?v=RdKIndS-Znc)
+
+
+## Publications
+Here is the list of publications related to our work in the REPI project :
 
 
 

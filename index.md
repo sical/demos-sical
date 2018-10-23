@@ -34,7 +34,6 @@ layout: main
                                 <a href="{{ site.baseurl}}/tags/#{{tag | slugify }}">{{ tag }}</a>
                             {% endfor %}
                         </div>
-                        
                     </div>
                 </div>
             </article>
