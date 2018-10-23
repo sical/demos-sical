@@ -11,7 +11,7 @@
         <p itemprop="description" class="subtitle">{{ page.description }}</p>
 
         {% if page.image %}
-        <img src="{{ page.image }}" alt="{{ page.image_alt }}" class="post-cover">
+        <img src="{{ page.image | prepend: site.baseurl }}" alt="{{ page.image_alt }}" class="post-cover">
         {% endif %}
 
         {{ content }}

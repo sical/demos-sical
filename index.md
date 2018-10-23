@@ -21,7 +21,7 @@ layout: main
                         <div class="cover">
                             {% include new-post-tag.html date=post.date %}
                             <a href="{{ post.url | prepend: site.baseurl }}" {%if isnewpost %}class="new-post"{% endif %}>
-                                <img src="assets/img/placeholder.png" data-url="{{ post.image }}" class="preload">
+                                <img src="assets/img/placeholder.png" data-url="{{ post.image || prepend: site.baseurl }}" class="preload">
                             </a>
                         </div>
                     {% endif %}
@@ -31,7 +31,7 @@ layout: main
                         </a>
                         <div class="tags">
                             {% for tag in post.tags %}
-                                <a href="{{ site.url}}/tags/#{{tag | slugify }}">{{ tag }}</a>
+                                <a href="#">#{{ tag }}</a>
                             {% endfor %}
                         </div>
                     </div>

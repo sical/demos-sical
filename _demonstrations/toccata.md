@@ -2,7 +2,7 @@
 layout: post
 title: "Toccata"
 date: 2017-08-14 22:55:45
-image: 'assets/img/demos/toccata.png'
+image: '/assets/img/demos/toccata.png'
 description: Toccata is a tool for pedagogical activities creation and management.
 category: 'css'
 demo_url: https://demo.toccata.education
