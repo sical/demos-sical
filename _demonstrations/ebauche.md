@@ -5,7 +5,7 @@ date: 2017-08-14 22:55:45
 image: '/assets/img/demos/ebauche.png'
 description: Collaborative sketching for designing pervasive displays.
 category: 'css'
-demo_url: https://ebauche-150de.firebaseapp.com
+demo_url: https://draw.ebauche.eu
 tags:
 - sketching
 - tool
@@ -19,6 +19,6 @@ Pervasive displays are all around us and their design could benefit a lot from t
 Practices such as enactment and bodystorming encourage deisgners to have a better comprehension of the context and facilitates the leverage of contextual elements (lights, structural specificities, people behaviour, etc.). Ébauche's digital collaborative sketching goals are to improve the feedback the designer get from making freehand prototypes and to smooth the overall experience during bodystorming workshops.
 
 # Setup
-[Sketching app](https://ebauche-150de.firebaseapp.com). To be able to take full advantage of the app, please use a stylus enabled tablet/computer.
+[Sketching app](https://draw.ebauche.eu). To be able to take full advantage of the app, please use a stylus enabled tablet/computer.
 
-[Previsualisation app](https://ebauche-display.firebaseapp.com/). This webpage is to be opened on displays to which we want to send sketches.
+[Previsualisation app](https://display.ebauche.eu). This webpage is to be opened on displays to which we want to send sketches.
